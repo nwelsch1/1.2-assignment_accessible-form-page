@@ -37,7 +37,16 @@
                 <section id="form">
                     <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
                             <label for="name">Full Name<span class="required">*</span><input type="text" name="name" id="name" placeholder="First and Last" size="20"></label>
-
+                            <label for="email">Email<span class="required">*</span><input id="email" type="email"></label>
+                            <label for="tel">Phone<span class="required">*</span><input id="tel" type="tel"></label>
+                            <fieldset>
+                              <legend>Preferred Contact Method<span class="required">*</span></legend>
+                           
+                                <input type="radio" name="radio1" value="1">
+                                <label for="tel">Phone</label>
+                                <input type="radio" name="radio2" value="2">
+                                <label for="email">Email</label> 
+                            </fieldset>
                     
                     </form> 
                 </section>       
