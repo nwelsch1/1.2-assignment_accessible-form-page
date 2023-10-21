@@ -1,15 +1,11 @@
 <!DOCTYPE html>
-
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <!--    -------- TO-DO: ADD META TAG AND NAME HERE -------- -->
         <meta name="Author" content="Nancy Welsch">
         <title>Form Activity Solution File</title>
-        <!--    -------- TO-DO: ADD LINK TO CSS HERE -------- -->
         <link rel="stylesheet" href="styles.css">
     </head>
-
     <body>
         <a href="#main-content" id="skipLink">Skip to main content</a>
         <header>
@@ -32,17 +28,14 @@
                     links for your website. Forms can be a source of frustration for users, whether they specifically need help with
                     accessing your website or if they just prefer that your forms be easy to use and submit. Follow along as we code
                     this in class, and please ask questions as they arise. Let's make a form!</p>
-
-                <!--    -------- TO-DO: ADD FORM HERE -------- -->
                 <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
                         <label for="name">Full Name<span class="required">*</span><input type="text" name="name" id="name" placeholder="First and Last" size="20"></label>
                         <label for="email">Email<span class="required">*</span><input id="email" type="email"></label>
                         <label for="tel">Phone<span class="required">*</span><input id="tel" type="tel"></label>
                         <fieldset>
                             <legend>Preferred Contact Method<span class="required">*</span></legend>
-                        
                             <input type="radio" name="contact" value="tel">
-                            <label for="phone">Phone</label>
+                            <label for="tel">Phone</label>
                             <input type="radio" name="contact" value="email">
                             <label for="email">Email</label> 
                         </fieldset>
